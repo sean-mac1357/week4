@@ -1,0 +1,45 @@
+
+html {
+    font-size: 32px;
+    text-align: center;
+    background-color: lightgray;
+    background-image: url(../images/drifting-bmw.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 20px 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+
+div.picture {
+    position: relative;
+    left: 450px;
+    width: 30%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+img {
+    width: 100%;
+
+}
+
+.bio {
+    background: grey;
+    opacity: 0.4;
+    position: relative;
+    left: 150px;
+    width: 850px;
+    padding: 1rem 2rem;
+    color: white;
+    line-height: 2;
+}
+
+a:hover {
+    color: #3DEA54;
+}
+
+
+
