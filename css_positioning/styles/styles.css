@@ -1,0 +1,59 @@
+html {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+.header {
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    margin: 20px 0 0;
+}
+
+.images {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    place-items: center;
+    gap: 10px 10px;
+    place-content: center;
+    grid-auto-flow: row;
+}
+
+.images--resizable {
+    width: 240px;
+    padding: 10px;
+    border-radius: 50px;
+    }
+
+@media screen and (min-width: 320px) {
+    .header {
+        font-size: 36px;
+    }
+}
+
+@media screen and (min-width: 640px) {
+    .images {
+        grid-template-columns: 1fr 1fr;
+    }
+    .header {
+        font-size: 60px;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .images {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .header {
+        font-size: 80px;
+    }
+}

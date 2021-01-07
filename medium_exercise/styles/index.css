@@ -1,5 +1,60 @@
-
 html {
+    box-sizing: border-box;
+    background-image: url(../images/drifting-bmw.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.grid-container > div {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    justify-content: space-evenly;
+}
+
+main {
+    margin: 0 32 0 32;
+    max-width: 100px;
+}
+
+.picture img,
+.bio p {
+    display: flex;
+    flex-wrap: wrap;
+    width: 350%;
+    height: auto;
+}
+
+img {
+    width: 100%;
+}
+
+.bio p {
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 600px;
+    line-height: 2;
+}
+
+a:hover {
+    color: #3DEA54;
+}
+
+
+/* html {
     font-size: 32px;
     text-align: center;
     background-color: lightgray;
@@ -39,7 +94,7 @@ img {
 
 a:hover {
     color: #3DEA54;
-}
+} */
 
 
 
