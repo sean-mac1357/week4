@@ -1,0 +1,102 @@
+html {
+    font-family: 'Redressed', cursive;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-image: url(../images/drifting-bmw.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+*,
+*::before,
+*::after {
+box-sizing: inherit;
+}
+
+.site {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0px;
+    justify-items: center;
+    background-color: #0e1c36;
+    color: #efdcbe;
+    opacity: 0.6;
+
+}
+
+.site--content {
+    flex: 1;
+}
+
+h1 {
+    font-family: 'Redressed', cursive;
+    font-weight: 400;
+}
+
+h3 {
+    font-family: 'Redressed', cursive;
+    margin: 0px;
+}
+
+header {
+    align-items: left;
+    width: 100vw;
+    padding: 20px;
+}
+.intro {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px 0 50px;
+}
+
+.intro--p {
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 300px;
+    padding: 5px;
+    align-items: flex-start;
+}
+
+.intro--img {
+    width: 30%;
+    border-radius: 100%;
+    padding: 5px 5px 5px 20px;
+}
+
+
+.all-columns {
+    padding: 50px 10px 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    column-gap: 10px;
+    margin: 0px;
+    align-items: flex-start;
+}
+
+.all-columns--way-back,
+.all-columns--hobbies {
+    padding: 20px;
+}
+
+.links {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    width: 100vw;
+    margin: 0px;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px 10px 10px;
+}
+
+.footer--social {
+    align-self: flex-end;
+}

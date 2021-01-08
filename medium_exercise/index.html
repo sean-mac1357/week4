@@ -3,34 +3,38 @@
     <head>
         <title>Sean's Bio</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="styles/index.css">
+        <link rel="stylesheet" href="styles/grid_style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
     </head>
-    <body>
-        <div class="grid-container">
-            <main>
-                <h1>Sean MacEachern</h1>
-                <section class="picture">
-                    <img src="images/lake-photo.jpg" alt="A photo of Sean's wife, daughter, son, and self.">
+    <body class="site">
+        <header>
+            <h1>Sean MacEachern</h1>
+        </header>
+        <main class="site--content">
+            <section class="intro">
+                <img class="intro--img" src="images/lake-photo.jpg" alt="A photo of Sean's wife, daughter, son, and self.">
+                <p class="intro--p">Spending time with family is the most important part of my life. Friends that I have gained throughout the years, mostly from the Marine Corps, have made a substantially big impact in my life and occasionally taking trips to visit them help reset my brain so I can stay focused on achieving excellence in my life. Some hobbies I like to do to stay sane through this roller coaster of life are playing video games mainly ones with cars and racing, going to drift events with friends, and creating new things whether being with my hands or new web-developments.</p>
+            </section>
+            <section class="all-columns">
+                <section class="all-columns--way-back">
+                    <h3>When I am not with family, I still technically am...</h3>
+                    <p>Friends that I have gained throughout the years, mostly from the Marine Corps, have made a substantially big impact in my life and occasionally taking trips to visit them help reset my brain so I can stay focused on achieving excellence in my life.</p>
                 </section>
-                <section class="overlay"></section>
-                <section class="bio">
-                    <p>Spending time with family is the most important part of my life. Friends that I have gained throughout the years, mostly from the Marine Corps, have made a substantially big impact in my life and occasionally taking trips to visit them help reset my brain so I can stay focused on achieving excellence in my life. Some hobbies I like to do to stay sane through this roller coaster of life are playing video games mainly ones with cars and racing, going to drift events with friends, and creating new things whether being with my hands or new web-developments.</p>
+                <section class="all-columns--hobbies">
+                    <h3>My hobbies, so my mind doesn't completely turn to mush</h3>
+                    <p>Some hobbies I like to do to stay sane through this roller coaster of life are playing video games mainly ones with cars and racing, going to drift events with friends, and creating new things whether being with my hands or new web-developments.</p>
                 </section>
-                <div>
-                    <section class="links">
-                        <p>Links to Sean's Social Media</p>
-                        <p><a href="https://www.facebook.com/sean.mac1357">Sean's Facebook</a></p>
-                    </section>
-                </div>
-                <div>
-                    <nav>
-                        <ul>
-                            <li>More about Sean</li>
-                            <li>Photos</li>
-                        </ul>
-                    </nav>
-                </div>
-            </main>
-        </div>
+            </section>
+            <section class="links">
+                <p>Links to Sean's Code and Social Media</p>
+            </section>
+        </main>
+        <footer class="footer">
+            Sean R. MacEachern &copy 2021
+            <a href="https://github.com/sean-mac1357"><img class="footer--social" src="styles/github.png" alt="GitHub Logo" width="20px"></a>
+            <a href="https://www.linkedin.com/in/sean-maceachern-2543298b/"><img class="footer--social" src="styles/linkdin.png" alt="Linkedin's Logo" width="20px0"></a>
+            <a href="https://www.facebook.com/sean.mac1357"><img class="footer--social" src="styles/fb.png" alt="Facebook's Logo" width="20px"></a>
+        </footer>
     </body>
 </html>
